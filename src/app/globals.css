@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.movieRow:hover .movieRow-left,
+.movieRow:hover .movieRow-right {
+  opacity: 1;
+}
